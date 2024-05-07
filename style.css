@@ -1,0 +1,240 @@
+button{
+    background-color: #07bff2;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+button:disabled {
+    background-color: gray; /* Change the background color to gray when the button is disabled */
+    color: black; /* Change the text color to white when the button is disabled */
+}
+#menu{
+    background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-color: #07bff2; /* Optional: Prevent the image from repeating */
+    background-size: 100%;
+    background-position: center center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+entry
+{
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: red;
+}
+
+window {
+    background-image: url("background1.png");
+   /* background-color: #9c0387; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+#radio
+{
+  color: white;
+
+}
+
+#radio:checked{
+
+ background-color: #07bff2;
+ border-radius: 25px;
+}
+#radio:checked::indicator {
+    background-color: red;
+}
+ *
+{
+    color: black;
+    font-size: 20;
+}
+#Audi {
+    background-image: url("Audi-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+#Dacia {
+    background-image: url("Dacia.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 150%;
+    background-position: center center;
+}
+
+#BMW {
+    background-image: url("BMW.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Citroen {
+    background-image: url("Citroen.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Fiat {
+    background-image: url("Fiat.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Ford {
+    background-image: url("Ford.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 150%;
+    background-position: center center;
+}
+
+#Hyundai {
+    background-image: url("Hyundai.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Kia {
+    background-image: url("Kia.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Mercedes {
+    background-image: url("Mercedes.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Nissan {
+    background-image: url("Nissan.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 150%;
+    background-position: center center;
+}
+
+#Opel {
+    background-image: url("Opel.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Peugeot {
+    background-image: url("Peugeot.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Renault {
+    background-image: url("Renault.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Rover {
+    background-image: url("Rover.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Skoda {
+    background-image: url("Skoda.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Toyota {
+    background-image: url("Toyota.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+
+#Volkswagen {
+    background-image: url("VOLKSWAGE.png");
+    background-repeat: no-repeat;
+    background-color: white; /* Optional: Prevent the image from repeating */
+    background-size: 90%;
+    background-position: center center;
+}
+#Audi:checked,
+#BMW:checked,
+#Dacia:checked,
+#Citroen:checked,
+#Fiat:checked,
+#Ford:checked,
+#Hyundai:checked,
+#Kia:checked,
+#Mercedes:checked,
+#Nissan:checked,
+#Opel:checked,
+#Peugeot:checked,
+#Renault:checked,
+#Rover:checked,
+#Skoda:checked,
+#Toyota:checked,
+#Volkswagen:checked {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 8px;
+    border-width: 3px; /* Set the border thickness to 2 pixels */
+    border-style: solid;
+}
+#user_info{
+
+    background-image: url("logo.jpg");
+
+
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mini_project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/mini_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/mini_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="#project.glade#" />
+		<Unit filename="Audi-removebg-preview.png" />
+		<Unit filename="BMW.png" />
+		<Unit filename="Citroen.png" />
+		<Unit filename="Dacia.png" />
+		<Unit filename="Fiat.png" />
+		<Unit filename="Ford.png" />
+		<Unit filename="Hyundai.png" />
+		<Unit filename="Kia.png" />
+		<Unit filename="Mercedes.png" />
+		<Unit filename="Nissan.png" />
+		<Unit filename="Opel.png" />
+		<Unit filename="Peugeot.png" />
+		<Unit filename="Renault.png" />
+		<Unit filename="Rover.png" />
+		<Unit filename="Skoda.png" />
+		<Unit filename="Toyota.png" />
+		<Unit filename="Unsaved 1.glade" />
+		<Unit filename="VOLKSWAGE.png" />
+		<Unit filename="assurance.txt" />
+		<Unit filename="background1.png" />
+		<Unit filename="background2.png" />
+		<Unit filename="background3.png" />
+		<Unit filename="carburant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="coordonnees.txt" />
+		<Unit filename="functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface (1).c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="logos.rar" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.png" />
+		<Unit filename="mini_project - Copy.depend" />
+		<Unit filename="mini_project - Copy.layout" />
+		<Unit filename="mini_project.depend" />
+		<Unit filename="mini_projet.h" />
+		<Unit filename="obj/Debug/functions.o" />
+		<Unit filename="obj/Debug/main.o" />
+		<Unit filename="obj/Debug/page2_1.o" />
+		<Unit filename="obj/Debug/page2_2.o" />
+		<Unit filename="obj/Debug/page2_3.o" />
+		<Unit filename="page2_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="page2_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="page2_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="project.glade" />
+		<Unit filename="project.glade~" />
+		<Unit filename="somme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="style.css" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
